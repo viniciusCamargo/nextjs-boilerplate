@@ -8,7 +8,7 @@ export default class extends Component {
     console.log(this.state)
   } */
 
-  render() {
+  render () {
     const { clicked } = this['state']
 
     return (

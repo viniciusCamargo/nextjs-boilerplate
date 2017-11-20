@@ -47,7 +47,11 @@
     "standard": "^10.0.3"
   },
   "standard": {
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "ignore": [
+      "/config/**/*.js",
+      "/specs/**/*.js"
+    ]
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/config/test/enzyme.js",
